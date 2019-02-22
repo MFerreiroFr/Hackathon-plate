@@ -83,6 +83,20 @@ body {
  font-weight: var(--font-weight-bold);
 }
 
+.upv {
+  text-align: center;
+  margin: 6.5rem auto;
+}
+
+.upv__title {
+  text-transform: uppercase;
+  font-size: 2rem;
+}
+
+.upv__paragraph {
+  font-size: 1.375rem;
+  line-height: 2rem;
+}
 
 .features{
   display: flex;
