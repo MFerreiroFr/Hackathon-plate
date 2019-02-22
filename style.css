@@ -38,25 +38,31 @@ body {
 }
 
 .header__logo {
-
+  margin-top: 4.3rem;
+  margin-left: 4.8rem;
 }
 
 .header__text {
   color: var(--font-secondary-color);
+  margin-left: 4.8rem;
+  margin-top: 7.4rem;
 }
 
 .header__sub-text {
   color: var(--font-primary-color);
+  display: block;
 }
 
 .btn {
  background-color: var(--color-secondary);
  border-radius: 100px;
  color: var(--font-secondary-color);
- width: 10rem;
- height: 2rem;
+ width: 18.5rem;
+ height: 2.9rem;
  border: none;
  outline: none;
  box-shadow: var(--shadow-primary);
  text-transform: uppercase;
+ margin-left: 4.8rem;
+ font-size: 1.3rem;
 }
