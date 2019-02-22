@@ -1,19 +1,25 @@
 # Hackathon-plate 2019
 
-> Internal Ironhack Barcelona Hackathon (UX/UI + WebDev)
+Internal Ironhack Barcelona Hackathon (UX/UI + WebDev)
 
-## How to use
+**Students**: David, Matias, Aïda, Edu
 
-- Fork to your github account
-- Use this file to describe your project, plan, take notes, todos, etc...
-- Have fun
+### Title: 
+
+Parcelcopter
+
+### Description:
+
+This landing page shows a revolutionary delivery technology for companies and clients that want send a parcel quick, easy and safely.
+
+### Technology
+
+- HTML5
+- CSS3
+-  BEM
+- Sketch
 
 ### Files included:
 
-  - `index.html`
-  - `style.css`
-  - `main.js`
-
-### Folders included:
-
-  - `./assets` (add images, fonts, etc...)
+- `index.html`
+- `style.css`
