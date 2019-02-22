@@ -7,6 +7,10 @@
   --font-weight-bold: 900;
   --font-primary-color: #030303;
   --font-secondary-color: #ffffff;
+
+  --background-primary: #FAFAFA;
+
+  --box-shadow-secondary: 0 0 14px 5px rgb(226, 225, 225);
 }
 
 /* ---- reset ---- */
@@ -21,10 +25,47 @@ html {
 body {
   margin: 0;
   padding: 0;
+  font-family: var(--font-primary);
+  color: var(--font-primary-color);
+  background: var(--background-primary);
+}
 
-  color: var(--color-primary);
+.container{
+  max-width: 1024px;
+  margin: 0 auto;
 }
 
 
 /* ---- typography ---- */
 
+
+
+.features{
+  display: flex;
+  justify-content: space-around;
+}
+
+.feature-box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-basis: 300px;
+  padding: 2rem;
+  box-shadow: var(--box-shadow-secondary);
+  border-radius: 50px;
+  
+}
+
+.feature-box__img{
+  width: 100px;
+  height: auto;
+}
+
+.feature-box__title{
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.feature-box__paragraph{
+  text-align: center;
+}
