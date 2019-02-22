@@ -28,6 +28,11 @@ body {
   font-family: var(--font-primary);
 }
 
+.container{
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
 
 /* ---- typography ---- */
 
@@ -82,6 +87,7 @@ body {
 .features{
   display: flex;
   justify-content: space-around;
+  padding: 3rem 0;
 }
 
 .feature-box{
@@ -107,4 +113,16 @@ body {
 
 .feature-box__paragraph{
   text-align: center;
+}
+
+.footer{
+  background: var(--color-primary);
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.footer__logo{
+  flex-basis: 40px;
+  height: auto;
 }
