@@ -7,6 +7,7 @@
   --font-weight-bold: 900;
   --font-primary-color: #030303;
   --font-secondary-color: #ffffff;
+  --shadow-primary: 0px 0px 9px 0px #848484
 }
 
 /* ---- reset ---- */
@@ -21,10 +22,41 @@ html {
 body {
   margin: 0;
   padding: 0;
-
-  color: var(--color-primary);
+  font-family: var(--font-primary);
 }
 
 
 /* ---- typography ---- */
 
+/* header */
+
+.header {
+  height: 90vh;
+  background-image: url('./assets/background.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.header__logo {
+
+}
+
+.header__text {
+  color: var(--font-secondary-color);
+}
+
+.header__sub-text {
+  color: var(--font-primary-color);
+}
+
+.btn {
+ background-color: var(--color-secondary);
+ border-radius: 100px;
+ color: var(--font-secondary-color);
+ width: 10rem;
+ height: 2rem;
+ border: none;
+ outline: none;
+ box-shadow: var(--shadow-primary);
+ text-transform: uppercase;
+}
