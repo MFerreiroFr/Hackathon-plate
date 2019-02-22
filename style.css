@@ -81,6 +81,12 @@ body {
  font-size: 1.3rem;
  font-family: inherit;
  font-weight: var(--font-weight-bold);
+ cursor: pointer;
+ transition: all .2s;
+}
+
+.btn:hover {
+  background-color: #d19e05;
 }
 
 .upv {
