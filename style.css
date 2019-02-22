@@ -136,9 +136,18 @@ body {
   padding: 1rem 0;
 }
 
+.footer__text {
+  color: var(--font-secondary-color);
+  font-family: inherit;
+  padding-left: 2rem;
+  font-size: 2rem;
+  margin: 0;
+}
 .footer__logo{
   width: 40px;
   height: auto;
   margin: 0 1rem;
   
 }
+
+
