@@ -16,6 +16,7 @@ This landing page shows a revolutionary delivery technology for companies and cl
 
 - HTML5
 - CSS3
+- Custom properties
 -  BEM
 - Sketch
 
