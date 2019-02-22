@@ -114,13 +114,15 @@ body {
 }
 
 .footer{
-  background: var(--color-primary);
   display: flex;
   justify-content: center;
-  flex-direction: row;
+  background: var(--color-primary);
+  padding: 1rem 0;
 }
 
 .footer__logo{
-  flex-basis: 40px;
+  width: 40px;
   height: auto;
+  margin: 0 1rem;
+  
 }
